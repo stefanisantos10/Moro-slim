@@ -2,536 +2,6 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Entrega - Moro Slim</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #fff; color: #333; }
-    header { background: #ff6600; padding: 20px; text-align: center; }
-    header img { max-height: 80px; }
-    nav { background: #333; padding: 10px; text-align: center; }
-    nav a { color: #fff; text-decoration: none; margin: 0 15px; font-weight: bold; }
-    nav a:hover { text-decoration: underline; }
-    main { padding: 40px 20px; max-width: 800px; margin: auto; }
-    h1, h2 { color: #ff6600; text-align: center; }
-    p { line-height: 1.6; font-size: 16px; margin-bottom: 15px; }
-    ul { padding-left: 20px; }
-    footer { background: #222; color: #fff; text-align: center; padding: 20px; margin-top: 40px; font-size: 14px; }
-    .whatsapp-float {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25D366;
-      color: white;
-      border-radius: 50%;
-      padding: 15px;
-      font-size: 24px;
-      box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
-      z-index: 1000;
-    }
-    .whatsapp-float:hover {
-      background-color: #1ebe5d;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <img src="https://raw.githubusercontent.com/stefanisantos10/Moro-slim/main/logo-moro-slim-casal.png" alt="Logo Moro Slim">
-  </header>
-
-  <nav>
-    <a href="index.html">Início</a>
-    <a href="produtos.html">Produtos</a>
-    <a href="carrinho.html">Carrinho</a>
-    <a href="pagamento.html">Pagamento</a>
-    <a href="entrega.html">Entrega</a>
-    <a href="politica.html">Política</a>
-    <a href="contato.html">Contato</a>
-  </nav>
-
-  <main>
-    <h1>Entrega e Rastreamento</h1>
-
-    <h2>📦 Prazo de Entrega</h2>
-    <p>O prazo médio de entrega é de 7 a 21 dias úteis, dependendo da sua localização.</p>
-
-    <h2>📍 Rastreamento</h2>
-    <p>Assim que seu pedido for enviado, você receberá um código de rastreio por WhatsApp e e-mail.</p>
-
-    <h2>🚚 Frete</h2>
-    <p>Calculado automaticamente no carrinho com base no CEP informado.</p>
-
-    <h2>💬 Dúvidas?</h2>
-    <p>Fale com a gente pelo botão do WhatsApp no canto da tela!</p>
-  </main>
-
-  <a class="whatsapp-float" href="https://wa.me/5512991314853" target="_blank">🟢</a>
-
-  <footer>
-    &copy; 2025 Moro Slim - Todos os direitos reservados
-  </footer>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Moro Slim - Loja Oficial</title>
-<style>
-  body { margin: 0; font-family: Arial, sans-serif; background: #fff; color: #333; }
-  header { background: #ff6600; padding: 20px; text-align: center; }
-  header img { max-height: 100px; }
-  nav { background: #333; padding: 10px; text-align: center; }
-  nav a { color: #fff; text-decoration: none; margin: 0 15px; font-weight: bold; }
-  nav a:hover { text-decoration: underline; }
-  main { padding: 40px 20px; max-width: 1200px; margin: auto; }
-  h1, h2 { color: #ff6600; text-align: center; }
-  .produtos, .depoimentos { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 30px; }
-  .produto, .depoimento { border: 1px solid #ddd; border-radius: 10px; padding: 20px; text-align: center; background: #fafafa; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-  .produto img { max-width: 100%; height: 180px; object-fit: cover; border-radius: 10px; }
-  .produto h3 { margin: 10px 0 5px; font-size: 1.2em; }
-  .produto p { margin: 5px 0; font-weight: bold; font-size: 1.1em; color: #222; }
-  .btn { background-color: #ff6600; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 10px; font-weight: bold; transition: background-color 0.3s ease; }
-  .btn:hover { background-color: #e65500; }
-  footer { background: #222; color: #fff; text-align: center; padding: 20px; font-size: 14px; margin-top: 40px; }
-</style>
-</head>
-<body>
-<header>
-  <img src="https://raw.githubusercontent.com/stefanisantos10/Moro-slim/main/logo-moro-slim-casal.png" alt="Logo Moro Slim" />
-</header>
-<nav>
-  <a href="index.html">Início</a>
-  <a href="produtos.html">Produtos</a>
-  <a href="carrinho.html">Carrinho</a>
-  <a href="pagamento.html">Pagamento</a>
-  <a href="entrega.html">Entrega</a>
-  <a href="politica.html">Política</a>
-  <a href="contato.html">Contato</a>
-</nav>
-<main>
-  <h1>Bem-vinda à Moro Slim</h1>
-  <p style="text-align: center; font-size: 1.1em;">
-    Sua loja completa para emagrecer com saúde, treinar com estilo e viver com mais energia!
-  </p>
-  <h2>Produtos em Destaque</h2>
-  <div class="produtos">
-    <div class="produto">
-      <img src="https://i.imgur.com/oPh1JKM.png" alt="Laranja Moro" />
-      <h3>Laranja Moro - 60 cápsulas</h3>
-      <p>R$ 49,90</p>
-      <a href="produtos.html#laranja-moro" class="btn">Comprar</a>
-    </div>
-    <div class="produto">
-      <img src="https://i.imgur.com/FuNIDj0.png" alt="Chá Detox" />
-      <h3>Chá Detox Verde + Hibisco</h3>
-      <p>R$ 29,90</p>
-      <a href="produtos.html#cha-detox" class="btn">Comprar</a>
-    </div>
-    <div class="produto">
-      <img src="https://i.imgur.com/8mEHF1K.jpg" alt="Whey Protein" />
-      <h3>Whey Protein 1kg - Baunilha</h3>
-      <p>R$ 89,90</p>
-      <a href="produtos.html#whey-protein" class="btn">Comprar</a>
-    </div>
-    <div class="produto">
-      <img src="https://i.imgur.com/7KZuvAE.jpg" alt="Tênis fitness" />
-      <h3>Tênis Esportivo AirBoost</h3>
-      <p>R$ 119,90</p>
-      <a href="produtos.html#tenis-fitness" class="btn">Comprar</a>
-    </div>
-    <div class="produto">
-      <img src="https://i.imgur.com/mu3eE3j.jpg" alt="Barra de Cereal" />
-      <h3>Barras de Cereal Zero (Cx c/ 12)</h3>
-      <p>R$ 39,90</p>
-      <a href="produtos.html#barra-cereal" class="btn">Comprar</a>
-    </div>
-    <div class="produto">
-      <img src="https://i.imgur.com/VG6m2tr.jpg" alt="Conjunto fitness" />
-      <h3>Conjunto Fitness Legging + Top</h3>
-      <p>R$ 99,90</p>
-      <a href="produtos.html#conjunto-fitness" class="btn">Comprar</a>
-    </div>
-  </div>
-  <h2>Depoimentos</h2>
-  <div class="depoimentos">
-    <div class="depoimento">
-      <p>"Em 2 semanas perdi 5kg com as cápsulas de Laranja Moro e os treinos!"</p>
-      <strong>– Juliana, SP</strong>
-    </div>
-    <div class="depoimento">
-      <p>"Os produtos chegaram super rápido e são maravilhosos. Recomendo!"</p>
-      <strong>– Carla, RJ</strong>
-    </div>
-    <div class="depoimento">
-      <p>"Comprei whey e tênis, excelente qualidade e ótimo preço."</p>
-      <strong>– Rafael, MG</strong>
-    </div>
-  </div>
-</main>
-<footer>
-  &copy; 2025 Moro Slim - Todos os direitos reservados | Instagram: @moroslim.oficial
-</footer>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Produtos - Moro Slim</title>
-<style>
-  body { margin: 0; font-family: Arial, sans-serif; background: #fff; color: #333; }
-  header { background: #ff6600; padding: 20px; text-align: center; }
-  header img { max-height: 100px; }
-  nav { background: #333; padding: 10px; text-align: center; }
-  nav a { color: #fff; text-decoration: none; margin: 0 15px; font-weight: bold; }
-  nav a:hover { text-decoration: underline; }
-  main { padding: 40px 20px; max-width: 1200px; margin: auto; }
-  h1, h2 { color: #ff6600; text-align: center; }
-  .produtos { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 30px; }
-  .produto { border: 1px solid #ddd; border-radius: 10px; padding: 20px; text-align: center; background: #fafafa; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-  .produto img { max-width: 100%; height: 180px; object-fit: cover; border-radius: 10px; }
-  .produto h3 { margin: 10px 0 5px; font-size: 1.2em; }
-  .produto p { margin: 5px 0; font-weight: bold; font-size: 1.1em; color: #222; }
-  .btn { background-color: #ff6600; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 10px; font-weight: bold; transition: background-color 0.3s ease; }
-  .btn:hover { background-color: #e65500; }
-</style>
-</head>
-<body>
-<header>
-  <img src="https://raw.githubusercontent.com/stefanisantos10/Moro-slim/main/logo-moro-slim-casal.png" alt="Logo Moro Slim" />
-</header>
-<nav>
-  <a href="index.html">Início</a>
-  <a href="produtos.html">Produtos</a>
-  <a href="carrinho.html">Carrinho</a>
-  <a href="pagamento.html">Pagamento</a>
-  <a href="entrega.html">Entrega</a>
-  <a href="politica.html">Política</a>
-  <a href="contato.html">Contato</a>
-</nav>
-<main>
-  <h1>Produtos</h1>
-  <div class="produtos">
-    <div class="produto" id="laranja-moro">
-      <img src="https://i.imgur.com/oPh1JKM.png" alt="Laranja Moro" />
-      <h3>Laranja Moro - 60 cápsulas</h3>
-      <p>R$ 49,90</p>
-      <a href="carrinho.html?produto=laranja-moro" class="btn">Comprar</a>
-    </div>
-    <div class="produto" id="cha-detox">
-      <img src="https://i.imgur.com/FuNIDj0.png" alt="Chá Detox" />
-      <h3>Chá Detox Verde + Hibisco</h3>
-      <p>R$ 29,90</p>
-      <a href="carrinho.html?produto=cha-detox" class="btn">Comprar</a>
-    </div>
-    <div class="produto" id="whey-protein">
-      <img src="https://i.imgur.com/8mEHF1K.jpg" alt="Whey Protein" />
-      <h3>Whey Protein 1kg - Baunilha</h3>
-      <p>R$ 89,90</p>
-      <a href="carrinho.html?produto=whey-protein" class="btn">Comprar</a>
-    </div>
-    <div class="produto" id="tenis-fitness">
-      <img src="https://i.imgur.com/7KZuvAE.jpg" alt="Tênis fitness" />
-      <h3>Tênis Esportivo AirBoost</h3>
-      <p>R$ 119,90</p>
-      <a href="carrinho.html?produto=tenis-fitness" class="btn">Comprar</a>
-    </div>
-    <div class="produto" id="barra-cereal">
-      <img src="https://i.imgur.com/mu3eE3j.jpg" alt="Barra de Cereal" />
-      <h3>Barras de Cereal Zero (Cx c/ 12)</h3>
-      <p>R$ 39,90</p>
-      <a href="carrinho.html?produto=barra-cereal" class="btn">Comprar</a>
-    </div>
-    <div class="produto" id="conjunto-fitness">
-      <img src="https://i.imgur.com/VG6m2tr.jpg" alt="Conjunto fitness" />
-      <h3>Conjunto Fitness Legging + Top</h3>
-      <p>R$ 99,90</p>
-      <a href="carrinho.html?produto=conjunto-fitness" class="btn">Comprar</a>
-    </div>
-  </div>
-</main>
-<footer>
-  &copy; 2025 Moro Slim - Todos os direitos reservados | Instagram: @moroslim.oficial
-</footer>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Carrinho - Moro Slim</title>
-<style>
-  body { margin: 0; font-family: Arial, sans-serif; background: #fff; color: #333; }
-  header { background: #ff6600; padding: 20px; text-align: center; }
-  header img { max-height: 100px; }
-  nav { background: #333; padding: 10px; text-align: center; }
-  nav a { color: #fff; text-decoration: none; margin: 0 15px; font-weight: bold; }
-  nav a:hover { text-decoration: underline; }
-  main { padding: 40px 20px; max-width: 600px; margin: auto; }
-  h1 { color: #ff6600; text-align: center; }
-  .produto-carrinho { border: 1px solid #ddd; border-radius: 10px; padding: 15px; margin-bottom: 15px; background: #fafafa; }
-  .produto-carrinho img { max-width: 120px; border-radius: 8px; float: left; margin-right: 15px; }
-  .produto-carrinho h3 { margin: 0 0 5px 0; }
-  .btn-finalizar { background: #ff6600; color: white; padding: 15px 25px; border: none; border-radius: 5px; font-weight: bold; cursor: pointer; width: 100%; }
-  .btn-finalizar:hover { background: #e65500; }
-  footer { background: #222; color: #fff; text-align: center; padding: 20px; margin-top: 40px; font-size: 14px; clear: both; }
-</style>
-</head>
-<body>
-<header>
-  <img src="https://raw.githubusercontent.com/stefanisantos10/Moro-slim/main/logo-moro-slim-casal.png" alt="Logo Moro Slim" />
-</header>
-<nav>
-  <a href="index.html">Início</a>
-  <a href="produtos.html">Produtos</a>
-  <a href="carrinho.html">Carrinho</a>
-  <a href="pagamento.html">Pagamento</a>
-  <a href="entrega.html">Entrega</a>
-  <a href="politica.html">Política</a>
-  <a href="contato.html">Contato</a>
-</nav>
-<main>
-  <h1>Seu Carrinho</h1>
-  <div id="carrinho-produtos">
-    <p>Seu carrinho está vazio.</p>
-  </div>
-  <button class="btn-finalizar" onclick="finalizarCompra()">Finalizar Compra</button>
-</main>
-<footer>
-  &copy; 2025 Moro Slim - Todos os direitos reservados | Instagram: @moroslim.oficial
-</footer>
-
-<script>
-  const produtos = {
-    "laranja-moro": { nome: "Laranja Moro - 60 cápsulas", preco: 49.90, imagem: "https://i.imgur.com/oPh1JKM.png" },
-    "cha-detox": { nome: "Chá Detox Verde + Hibisco", preco: 29.90, imagem: "https://i.imgur.com/FuNIDj0.png" },
-    "whey-protein": { nome: "Whey Protein 1kg - Baunilha", preco: 89.90, imagem: "https://i.imgur.com/8mEHF1K.jpg" },
-    "tenis-fitness": { nome: "Tênis Esportivo AirBoost", preco: 119.90, imagem: "https://i.imgur.com/7KZuvAE.jpg" },
-    "barra-cereal": { nome: "Barras de Cereal Zero (Cx c/ 12)", preco: 39.90, imagem: "https://i.imgur.com/mu3eE3j.jpg"
-    <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Produtos - Moro Slim</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #fff;
-      color: #333;
-    }
-    header {
-      background: #ff6600;
-      padding: 20px;
-      text-align: center;
-    }
-    header img {
-      max-height: 80px;
-    }
-    nav {
-      background: #333;
-      padding: 10px;
-      text-align: center;
-    }
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: bold;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    main {
-      padding: 40px 20px;
-      max-width: 1200px;
-      margin: auto;
-    }
-    h1 {
-      color: #ff6600;
-      text-align: center;
-      margin-bottom: 30px;
-    }
-    .produtos {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-    .produto {
-      border: 1px solid #ddd;
-      border-radius: 10px;
-      padding: 20px;
-      background: #fafafa;
-      text-align: center;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    .produto img {
-      max-width: 100%;
-      height: 180px;
-      object-fit: cover;
-      border-radius: 10px;
-    }
-    .produto h3 {
-      margin: 10px 0 5px;
-    }
-    .produto p {
-      font-weight: bold;
-      margin: 5px 0;
-    }
-    .btn {
-      background: #ff6600;
-      color: white;
-      padding: 10px 15px;
-      text-decoration: none;
-      border-radius: 5px;
-      display: inline-block;
-      font-weight: bold;
-      margin-top: 10px;
-    }
-    .btn:hover {
-      background-color: #e65500;
-    }
-    footer {
-      background: #222;
-      color: #fff;
-      text-align: center;
-      padding: 20px;
-      font-size: 14px;
-      margin-top: 40px;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <img src="https://raw.githubusercontent.com/stefanisantos10/Moro-slim/main/logo-moro-slim-casal.png" alt="Logo Moro Slim" />
-  </header>
-
-  <nav>
-    <a href="index.html">Início</a>
-    <a href="produtos.html">Produtos</a>
-    <a href="carrinho.html">Carrinho</a>
-    <a href="pagamento.html">Pagamento</a>
-    <a href="entrega.html">Entrega</a>
-    <a href="politica.html">Política</a>
-    <a href="contato.html">Contato</a>
-  </nav>
-
-  <main>
-    <h1>Todos os Produtos</h1>
-    <div class="produtos">
-
-      <!-- SUPLEMENTOS -->
-      <div class="produto">
-        <img src="https://i.imgur.com/oPh1JKM.png" alt="Laranja Moro Cápsulas">
-        <h3>Laranja Moro - 60 cápsulas</h3>
-        <p>R$ 49,90</p>
-        <a href="#" class="btn">Comprar</a>
-      </div>
-
-      <div class="produto">
-        <img src="https://i.imgur.com/7KwJUhp.png" alt="Laranja Moro Pó">
-        <h3>Laranja Moro em pó 200g</h3>
-        <p>R$ 39,90</p>
-        <a href="#" class="btn">Comprar</a>
-      </div>
-
-      <div class="produto">
-        <img src="https://i.imgur.com/8mEHF1K.jpg" alt="Whey Baunilha">
-        <h3>Whey Protein 1kg - Baunilha</h3>
-        <p>R$ 89,90</p>
-        <a href="#" class="btn">Comprar</a>
-      </div>
-
-      <div class="produto">
-        <img src="https://i.imgur.com/1shXjZJ.jpg" alt="Whey Morango">
-        <h3>Whey Protein 1kg - Morango</h3>
-        <p>R$ 89,90</p>
-        <a href="#" class="btn">Comprar</a>
-      </div>
-
-      <div class="produto">
-        <img src="https://i.imgur.com/QGm8JJK.jpg" alt="Termogênico">
-        <h3>Termogênico Laranja Moro</h3>
-        <p>R$ 59,90</p>
-        <a href="#" class="btn">Comprar</a>
-      </div>
-
-      <!-- SNACKS -->
-      <div class="produto">
-        <img src="https://i.imgur.com/mu3eE3j.jpg" alt="Barras de Cereal">
-        <h3>Barras de Cereal Zero (12 unid)</h3>
-        <p>R$ 39,90</p>
-        <a href="#" class="btn">Comprar</a>
-      </div>
-
-      <!-- ROUPAS FITNESS FEMININAS -->
-      <div class="produto">
-        <img src="https://i.imgur.com/VG6m2tr.jpg" alt="Conjunto Feminino Roxo">
-        <h3>Conjunto Fitness Feminino Roxo</h3>
-        <p>R$ 99,90</p>
-        <a href="#" class="btn">Comprar</a>
-      </div>
-
-      <div class="produto">
-        <img src="https://i.imgur.com/XLrOS1V.jpg" alt="Camiseta Feminina Roxa">
-        <h3>Camiseta Dry Fit Feminina Roxa</h3>
-        <p>R$ 49,90</p>
-        <a href="#" class="btn">Comprar</a>
-      </div>
-
-      <div class="produto">
-        <img src="https://i.imgur.com/UkAnxJP.jpg" alt="Short Feminino Preto">
-        <h3>Short Fitness Feminino Preto</h3>
-        <p>R$ 39,90</p>
-        <a href="#" class="btn">Comprar</a>
-      </div>
-
-      <!-- ROUPAS FITNESS MASCULINAS -->
-      <div class="produto">
-        <img src="https://i.imgur.com/G3bApSO.jpg" alt="Camiseta Masculina Roxa">
-        <h3>Camiseta Dry Fit Masculina Roxa</h3>
-        <p>R$ 49,90</p>
-        <a href="#" class="btn">Comprar</a>
-      </div>
-
-      <div class="produto">
-        <img src="https://i.imgur.com/nGUPcvZ.jpg" alt="Short Masculino Preto">
-        <h3>Short Fitness Masculino Preto</h3>
-        <p>R$ 44,90</p>
-        <a href="#" class="btn">Comprar</a>
-      </div>
-
-      <!-- TÊNIS -->
-      <div class="produto">
-        <img src="https://i.imgur.com/aNZg4UC.jpg" alt="Tênis Feminino Roxo">
-        <h3>Tênis AirBoost Feminino Roxo</h3>
-        <p>R$ 119,90</p>
-        <a href="#" class="btn">Comprar</a>
-      </div>
-
-      <div class="produto">
-        <img src="https://i.imgur.com/VVyY8Qc.jpg" alt="Tênis Masculino Preto">
-        <h3>Tênis AirBoost Masculino Preto</h3>
-        <p>R$ 129,90</p>
-        <a href="#" class="btn">Comprar</a>
-      </div>
-
-    </div>
-  </main>
-
-  <footer>
-    &copy; 2025 Moro Slim - Todos os direitos reservados
-  </footer>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Moro Slim - Loja Oficial</title>
   <style>
@@ -689,46 +159,85 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Carrinho - Moro Slim</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Produtos - Moro Slim</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #fff; color: #333; }
-    header { background: #ff6600; padding: 20px; text-align: center; }
-    header img { max-height: 80px; }
-    nav { background: #333; padding: 10px; text-align: center; }
-    nav a { color: #fff; text-decoration: none; margin: 0 15px; font-weight: bold; }
-    nav a:hover { text-decoration: underline; }
-    main { padding: 40px 20px; max-width: 900px; margin: auto; }
-    h1 { text-align: center; color: #ff6600; }
-    table { width: 100%; border-collapse: collapse; margin-top: 30px; }
-    th, td { padding: 12px; border-bottom: 1px solid #ccc; text-align: left; }
-    .btn-finalizar {
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff;
+      color: #333;
+    }
+    header {
       background: #ff6600;
-      color: #fff;
-      padding: 12px 20px;
-      border: none;
-      border-radius: 5px;
-      font-weight: bold;
-      cursor: pointer;
-      margin-top: 20px;
-      display: block;
-      margin-left: auto;
-    }
-    .btn-finalizar:hover {
-      background: #e65500;
-    }
-    .whatsapp-float {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25D366;
-      color: white;
-      border-radius: 50%;
-      padding: 15px;
+      padding: 20px;
       text-align: center;
-      font-size: 24px;
-      box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
-      z-index: 1000;
+    }
+    header img {
+      max-height: 80px;
+    }
+    nav {
+      background: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    h1 {
+      color: #ff6600;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .produto {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      background: #fafafa;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .produto img {
+      max-width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .produto h3 {
+      margin: 10px 0 5px;
+    }
+    .produto p {
+      font-weight: bold;
+      margin: 5px 0;
+    }
+    .btn {
+      background: #ff6600;
+      color: white;
+      padding: 10px 15px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .btn:hover {
+      background-color: #e65500;
     }
     footer {
       background: #222;
@@ -742,7 +251,7 @@
 </head>
 <body>
   <header>
-    <img src="https://raw.githubusercontent.com/stefanisantos10/Moro-slim/main/logo-moro-slim-casal.png" alt="Moro Slim Logo" />
+    <img src="https://raw.githubusercontent.com/stefanisantos10/Moro-slim/main/logo-moro-slim-casal.png" alt="Logo Moro Slim" />
   </header>
 
   <nav>
@@ -756,232 +265,431 @@
   </nav>
 
   <main>
-    <h1>Seu Carrinho</h1>
-    <table>
-      <thead>
-        <tr>
-          <th>Produto</th>
-          <th>Quantidade</th>
-          <th>Preço</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Laranja Moro - 60 cápsulas</td>
-          <td>1</td>
-          <td>R$ 49,90</td>
-        </tr>
-        <tr>
-          <td>Whey Protein Baunilha</td>
-          <td>1</td>
-          <td>R$ 89,90</td>
-        </tr>
-        <tr>
-          <td><strong>Total</strong></td>
-          <td></td>
-          <td><strong>R$ 139,80</strong></td>
-        </tr>
-      </tbody>
-    </table>
+    <h1>Todos os Produtos</h1>
+    <div class="produtos">
 
-    <a href="pagamento.html">
-      <button class="btn-finalizar">Finalizar Compra</button>
-    </a>
-  </main>
+      <!-- SUPLEMENTOS -->
+      <div class="produto">
+        <img src="https://i.imgur.com/oPh1JKM.png" alt="Laranja Moro Cápsulas">
+        <h3>Laranja Moro - 60 cápsulas</h3>
+        <p>R$ 49,90</p>
+        <a href="#" class="btn">Comprar</a>
+      </div>
 
-  <a class="whatsapp-float" href="https://wa.me/5512991314853" target="_blank" title="Fale conosco no WhatsApp">🟢</a>
+      <div class="produto">
+        <img src="https://i.imgur.com/7KwJUhp.png" alt="Laranja Moro Pó">
+        <h3>Laranja Moro em pó 200g</h3>
+        <p>R$ 39,90</p>
+        <a href="#" class="btn">Comprar</a>
+      </div>
 
-  <footer>
-    &copy; 2025 Moro Slim - Todos os direitos reservados
-  </footer>
+      <div class="produto">
+        <img src="https://i.imgur.com/8mEHF1K.jpg" alt="Whey Baunilha">
+        <h3>Whey Protein 1kg - Baunilha</h3>
+        <p>R$ 89,90</p>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+
+      <div class="produto">
+        <img src="https://i.imgur.com/1shXjZJ.jpg" alt="Whey Morango">
+        <h3>Whey Protein 1kg - Morango</h3>
+        <p>R$ 89,90</p>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+
+      <div class="produto">
+        <img src="https://i.imgur.com/QGm8JJK.jpg" alt="Termogênico">
+        <h3>Termogênico Laranja Moro</h3>
+        <p>R$ 59,90</p>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+
+      <!-- SNACKS -->
+      <div class="produto">
+        <img src="https://i.imgur.com/mu3eE3j.jpg" alt="Barras de Cereal">
+        <h3>Barras de Cereal Zero (12 unid)</h3>
+        <p>R$ 39,90</p>
+        <a href="#" class="btn">Comprar</a>
+      </div>…
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Carrinho - Moro Slim</title>
+<style>
+  body { margin: 0; font-family: Arial, sans-serif; background: #fff; color: #333; }
+  header { background: #ff6600; padding: 20px; text-align: center; }
+  header img { max-height: 100px; }
+  nav { background: #333; padding: 10px; text-align: center; }
+  nav a { color: #fff; text-decoration: none; margin: 0 15px; font-weight: bold; }
+  nav a:hover { text-decoration: underline; }
+  main { padding: 40px 20px; max-width: 600px; margin: auto; }
+  h1 { color: #ff6600; text-align: center; }
+  .produto-carrinho { border: 1px solid #ddd; border-radius: 10px; padding: 15px; margin-bottom: 15px; background: #fafafa; }
+  .produto-carrinho img { max-width: 120px; border-radius: 8px; float: left; margin-right: 15px; }
+  .produto-carrinho h3 { margin: 0 0 5px 0; }
+  .btn-finalizar { background: #ff6600; color: white; padding: 15px 25px; border: none; border-radius: 5px; font-weight: bold; cursor: pointer; width: 100%; }
+  .btn-finalizar:hover { background: #e65500; }
+  footer { background: #222; color: #fff; text-align: center; padding: 20px; margin-top: 40px; font-size: 14px; clear: both; }
+</style>
+</head>
+<body>
+<header>
+  <img src="https://raw.githubusercontent.com/stefanisantos10/Moro-slim/main/logo-moro-slim-casal.png" alt="Logo Moro Slim" />
+</header>
+<nav>
+  <a href="index.html">Início</a>
+  <a href="produtos.html">Produtos</a>
+  <a href="carrinho.html">Carrinho</a>
+  <a href="pagamento.html">Pagamento</a>
+  <a href="entrega.html">Entrega</a>
+  <a href="politica.html">Política</a>
+  <a href="contato.html">Contato</a>
+</nav>
+<main>
+  <h1>Seu Carrinho</h1>
+  <div id="carrinho-produtos">
+    <p>Seu carrinho está vazio.</p>
+  </div>
+  <button class="btn-finalizar" onclick="finalizarCompra()">Finalizar Compra</button>
+</main>
+<footer>
+  &copy; 2025 Moro Slim - Todos os direitos reservados | Instagram: @moroslim.oficial
+</footer>
+
+<script>
+  const produtos = {
+    "laranja-moro": { nome: "Laranja Moro - 60 cápsulas", preco: 49.90, imagem: "https://i.imgur.com/oPh1JKM.png" },
+    "cha-detox": { nome: "Chá Detox Verde + Hibisco", preco: 29.90, imagem: "https://i.imgur.com/FuNIDj0.png" },
+    "whey-protein": { nome: "Whey Protein 1kg - Baunilha", preco: 89.90, imagem: "https://i.imgur.com/8mEHF1K.jpg" },
+    "tenis-fitness": { nome: "Tênis Esportivo AirBoost", preco: 119.90, imagem: "https://i.imgur.com/7KZuvAE.jpg" },
+    "barra-cereal": { nome: "Barras de Cereal Zero (Cx c/ 12)", preco: 39.90, imagem: "https://i.imgur.com/mu3eE3j.jpg"
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Produtos - Moro Slim</title>
+<style>
+  body { margin: 0; font-family: Arial, sans-serif; background: #fff; color: #333; }
+  header { background: #ff6600; padding: 20px; text-align: center; }
+  header img { max-height: 100px; }
+  nav { background: #333; padding: 10px; text-align: center; }
+  nav a { color: #fff; text-decoration: none; margin: 0 15px; font-weight: bold; }
+  nav a:hover { text-decoration: underline; }
+  main { padding: 40px 20px; max-width: 1200px; margin: auto; }
+  h1, h2 { color: #ff6600; text-align: center; }
+  .produtos { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 30px; }
+  .produto { border: 1px solid #ddd; border-radius: 10px; padding: 20px; text-align: center; background: #fafafa; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+  .produto img { max-width: 100%; height: 180px; object-fit: cover; border-radius: 10px; }
+  .produto h3 { margin: 10px 0 5px; font-size: 1.2em; }
+  .produto p { margin: 5px 0; font-weight: bold; font-size: 1.1em; color: #222; }
+  .btn { background-color: #ff6600; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 10px; font-weight: bold; transition: background-color 0.3s ease; }
+  .btn:hover { background-color: #e65500; }
+</style>
+</head>
+<body>
+<header>
+  <img src="https://raw.githubusercontent.com/stefanisantos10/Moro-slim/main/logo-moro-slim-casal.png" alt="Logo Moro Slim" />
+</header>
+<nav>
+  <a href="index.html">Início</a>
+  <a href="produtos.html">Produtos</a>
+  <a href="carrinho.html">Carrinho</a>
+  <a href="pagamento.html">Pagamento</a>
+  <a href="entrega.html">Entrega</a>
+  <a href="politica.html">Política</a>
+  <a href="contato.html">Contato</a>
+</nav>
+<main>
+  <h1>Produtos</h1>
+  <div class="produtos">
+    <div class="produto" id="laranja-moro">
+      <img src="https://i.imgur.com/oPh1JKM.png" alt="Laranja Moro" />
+      <h3>Laranja Moro - 60 cápsulas</h3>
+      <p>R$ 49,90</p>
+      <a href="carrinho.html?produto=laranja-moro" class="btn">Comprar</a>
+    </div>
+    <div class="produto" id="cha-detox">
+      <img src="https://i.imgur.com/FuNIDj0.png" alt="Chá Detox" />
+      <h3>Chá Detox Verde + Hibisco</h3>
+      <p>R$ 29,90</p>
+      <a href="carrinho.html?produto=cha-detox" class="btn">Comprar</a>
+    </div>
+    <div class="produto" id="whey-protein">
+      <img src="https://i.imgur.com/8mEHF1K.jpg" alt="Whey Protein" />
+      <h3>Whey Protein 1kg - Baunilha</h3>
+      <p>R$ 89,90</p>
+      <a href="carrinho.html?produto=whey-protein" class="btn">Comprar</a>
+    </div>
+    <div class="produto" id="tenis-fitness">
+      <img src="https://i.imgur.com/7KZuvAE.jpg" alt="Tênis fitness" />
+      <h3>Tênis Esportivo AirBoost</h3>
+      <p>R$ 119,90</p>
+      <a href="carrinho.html?produto=tenis-fitness" class="btn">Comprar</a>
+    </div>
+    <div class="produto" id="barra-cereal">
+      <img src="https://i.imgur.com/mu3eE3j.jpg" alt="Barra de Cereal" />
+      <h3>Barras de Cereal Zero (Cx c/ 12)</h3>
+      <p>R$ 39,90</p>
+      <a href="carrinho.html?produto=barra-cereal" class="btn">Comprar</a>
+    </div>
+    <div class="produto" id="conjunto-fitness">
+      <img src="https://i.imgur.com/VG6m2tr.jpg" alt="Conjunto fitness" />
+      <h3>Conjunto Fitness Legging + Top</h3>
+      <p>R$ 99,90</p>
+      <a href="carrinho.html?produto=conjunto-fitness" class="btn">Comprar</a>
+    </div>
+  </div>
+</main>
+<footer>
+  &copy; 2025 Moro Slim - Todos os direitos reservados | Instagram: @moroslim.oficial
+</footer>
 </body>
 </html>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Pagamento - Moro Slim</title>
-  <style>
-    body { margin: 0; font-family: Arial, sans-serif; background: #fff; color: #333; }
-    header { background: #ff6600; padding: 20px; text-align: center; }
-    header img { max-height: 80px; }
-    nav { background: #333; padding: 10px; text-align: center; }
-    nav a { color: #fff; text-decoration: none; margin: 0 15px; font-weight: bold; }
-    nav a:hover { text-decoration: underline; }
-    main { padding: 40px 20px; max-width: 800px; margin: auto; }
-    h1, h2 { color: #ff6600; text-align: center; }
-    p { line-height: 1.6; font-size: 16px; margin-bottom: 15px; }
-    ul { padding-left: 20px; }
-    footer { background: #222; color: #fff; text-align: center; padding: 20px; margin-top: 40px; font-size: 14px; }
-    .whatsapp-float {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25D366;
-      color: white;
-      border-radius: 50%;
-      padding: 15px;
-      text-align: center;
-      font-size: 24px;
-      box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
-      z-index: 1000;
-    }
-    .whatsapp-float:hover {
-      background-color: #1ebe5d;
-    }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Moro Slim - Loja Oficial</title>
+<style>
+  body { margin: 0; font-family: Arial, sans-serif; background: #fff; color: #333; }
+  header { background: #ff6600; padding: 20px; text-align: center; }
+  header img { max-height: 100px; }
+  nav { background: #333; padding: 10px; text-align: center; }
+  nav a { color: #fff; text-decoration: none; margin: 0 15px; font-weight: bold; }
+  nav a:hover { text-decoration: underline; }
+  main { padding: 40px 20px; max-width: 1200px; margin: auto; }
+  h1, h2 { color: #ff6600; text-align: center; }
+  .produtos, .depoimentos { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 30px; }
+  .produto, .depoimento { border: 1px solid #ddd; border-radius: 10px; padding: 20px; text-align: center; background: #fafafa; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+  .produto img { max-width: 100%; height: 180px; object-fit: cover; border-radius: 10px; }
+  .produto h3 { margin: 10px 0 5px; font-size: 1.2em; }
+  .produto p { margin: 5px 0; font-weight: bold; font-size: 1.1em; color: #222; }
+  .btn { background-color: #ff6600; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 10px; font-weight: bold; transition: background-color 0.3s ease; }
+  .btn:hover { background-color: #e65500; }
+  footer { background: #222; color: #fff; text-align: center; padding: 20px; font-size: 14px; margin-top: 40px; }
+</style>
 </head>
 <body>
-  <header>
-    <img src="https://raw.githubusercontent.com/stefanisantos10/Moro-slim/main/logo-moro-slim-casal.png" alt="Moro Slim Logo">
-  </header>
-
-  <nav>
-    <a href="index.html">Início</a>
-    <a href="produtos.html">Produtos</a>
-    <a href="carrinho.html">Carrinho</a>
-    <a href="pagamento.html">Pagamento</a>
-    <a href="entrega.html">Entrega</a>
-    <a href="politica.html">Política</a>
-    <a href="contato.html">Contato</a>
-  </nav>
-
-  <main>
-    <h1>Formas de Pagamento</h1>
-
-    <h2>💳 Cartão de Crédito</h2>
-    <p>Parcele em até 12x sem juros nos principais cartões:</p>
-    <ul>
-      <li>Visa</li>
-      <li>Mastercard</li>
-      <li>Elo</li>
-      <li>Hipercard</li>
-    </ul>
-
-    <h2>🏦 Pix ou Transferência</h2>
-    <p>Desconto de 5% para pagamentos via Pix.</p>
-
-    <h2>🔒 Compra Segura</h2>
-    <p>Dados protegidos com criptografia SSL e gateways seguros.</p>
-
-    <h2>📞 Suporte</h2>
-    <p>Dúvidas? Fale com nosso time no WhatsApp (12) 99131-4853.</p>
-  </main>
-
-  <a class="whatsapp-float" href="https://wa.me/5512991314853" target="_blank">🟢</a>
-
-  <footer>
-    &copy; 2025 Moro Slim - Todos os direitos reservados
-  </footer>
-</body>
-</html>
+<header>
+  <img src="https://raw.githubusercontent.com/stefanisantos10/Moro-slim/main/logo-moro-slim-casal.png" alt="Logo Moro Slim" />
+</header>
+<nav>
+  <a href="index.html">Início</a>
+  <a href="produtos.html">Produtos</a>
+  <a href="carrinho.html">Carrinho</a>
+  <a href="pagamento.html">Pagamento</a>
+  <a href="entrega.html">Entrega</a>
+  <a href="politica.html">Política</a>
+  <a href="contato.html">Contato</a>
+</nav>
+<main>
+  <h1>Bem-vinda à Moro Slim</h1>
+  <p style="text-align: center; font-size: 1.1em;">
+    Sua loja completa para emagrecer com saúde, treinar com estilo e viver com mais energia!
+  </p>
+  <h2>Produtos em Destaque</h2>
+  <div class="produtos">
+    <div class="produto">
+      <img src="https://i.imgur.com/oPh1JKM.png" alt="Laranja Moro" />
+      <h3>Laranja Moro - 60 cápsulas</h3>
+      <p>R$ 49,90</p>
+      <a href="produtos.html#laranja-moro" class="btn">Comprar</a>
+    </div>
+    <div class="produto">
+      <img src="https://i.imgur.com/FuNIDj0.png" alt="Chá Detox" />
+      <h3>Chá Detox Verde + Hibisco</h3>
+      <p>R$ 29,90</p>
+      <a href="produtos.html#cha-detox" class="btn">Comprar</a>
+    </div>
+    <div class="produto">
+      <img src="https://i.imgur.com/8mEHF1K.jpg" alt="Whey Protein" />
+      <h3>Whey Protein 1kg - Baunilha</h3>
+      <p>R$ 89,90</p>
+      <a href="produtos.html#whey-protein" class="btn">Comprar</a>
+    </div>
+    <div class="produto">
+      <img src="https://i.imgur.com/7KZuvAE.jpg" alt="Tênis fitness" />
+      <h3>Tênis Esportivo AirBoost</h3>
+      <p>R$ 119,90</p>
+      <a href="produtos.html#tenis-fitness" class="btn">Comprar</a>
+    </div>
+    <div class="produto">
+      <img src="https://i.imgur.com/mu3eE3j.jpg" alt="Barra de Cereal" />
+      <h3>Barras de Cereal Zero (Cx c/ 12)</h3>
+      <p>R$ 39,90</p>
+      <a href="produtos.html#barra-cereal" class="btn">Comprar</a>
+    </div>
+    <div class="produto">
+      <img src="https://i.imgur.com/VG6m2tr.jpg" alt="Conjunto fitness" />
+      <h3>Conjunto Fitness Legging + Top</h3>
+      <p>R$ 99,90</p>
+      <a href="produtos.html#conjunto-fitness" class="btn">Comprar</a>
+    </div>
+  </div>
+  <h2>Depoimentos</h2>
+  <div class="depoimentos">
+    <div class="depoimento">
+      <p>"Em 2 s…
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Política - Moro Slim</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #fff; color: #333; }
-    header { background: #ff6600; padding: 20px; text-align: center; }
-    header img { max-height: 80px; }
-    nav { background: #333; padding: 10px; text-align: center; }
-    nav a { color: #fff; text-decoration: none; margin: 0 15px; font-weight: bold; }
-    nav a:hover { text-decoration: underline; }
-    main { padding: 40px 20px; max-width: 800px; margin: auto; }
-    h1, h2 { color: #ff6600; text-align: center; }
-    p { font-size: 16px; line-height: 1.6; margin-bottom: 15px; }
-    footer { background: #222; color: #fff; text-align: center; padding: 20px; margin-top: 40px; font-size: 14px; }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Moro Slim - Loja Oficial</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fff;
+            color: #333;
+        }
+        header {
+            background: #ff6600;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            max-height: 100px;
+        }
+        main {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        h1, h2 {
+            color: #ff6600;
+            text-align: center;
+        }
+        .produtos, .depoimentos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .produto, .depoimento {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            background: #fafafa;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .produto img {
+            max-width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .produto h3 {
+            margin: 10px 0 5px;
+            font-size: 1.2em;
+        }
+        .produto p {
+            margin: 5px 0;
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #222;
+        }
+        .btn {
+            background-color: #ff6600;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #e65500;
+        }
+        footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            margin-top: 40px;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <img src="https://raw.githubusercontent.com/stefanisantos10/Moro-slim/main/logo-moro-slim-casal.png" alt="Logo Moro Slim">
-  </header>
+    <header>
+        <img src="https://raw.githubusercontent.com/stefanisantos10/Moro-slim/main/logo-moro-slim-casal.png" alt="Logo Moro Slim" />
+    </header>
+    <main>
+        <h1>Bem-vinda à Moro Slim</h1>
+        <p style="text-align: center; font-size: 1.1em;">
+            Sua loja completa para emagrecer com saúde, treinar com estilo e viver com mais energia!
+        </p>
 
-  <nav>
-    <a href="index.html">Início</a>
-    <a href="produtos.html">Produtos</a>
-    <a href="carrinho.html">Carrinho</a>
-    <a href="pagamento.html">Pagamento</a>
-    <a href="entrega.html">Entrega</a>
-    <a href="politica.html">Política</a>
-    <a href="contato.html">Contato</a>
-  </nav>
+        <h2>Produtos em Destaque</h2>
+        <div class="produtos">
+            <div class="produto">
+                <img src="https://i.imgur.com/oPh1JKM.png" alt="Laranja Moro" />
+                <h3>Laranja Moro - 60 cápsulas</h3>
+                <p>R$ 49,90</p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+            <div class="produto">
+                <img src="https://i.imgur.com/FuNIDj0.png" alt="Chá Detox" />
+                <h3>Chá Detox Verde + Hibisco</h3>
+                <p>R$ 29,90</p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+            <div class="produto">
+                <img src="https://i.imgur.com/8mEHF1K.jpg" alt="Whey Protein" />
+                <h3>Whey Protein 1kg - Baunilha</h3>
+                <p>R$ 89,90</p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+            <div class="produto">
+                <img src="https://i.imgur.com/7KZuvAE.jpg" alt="Tênis fitness" />
+                <h3>Tênis Esportivo AirBoost</h3>
+                <p>R$ 119,90</p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+            <div class="produto">
+                <img src="https://i.imgur.com/mu3eE3j.jpg" alt="Barra de Cereal" />
+                <h3>Barras de Cereal Zero (Cx c/ 12)</h3>
+                <p>R$ 39,90</p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+            <div class="produto">
+                <img src="https://i.imgur.com/VG6m2tr.jpg" alt="Conjunto fitness" />
+                <h3>Conjunto Fitness Legging + Top</h3>
+                <p>R$ 99,90</p>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+        </div>
 
-  <main>
-    <h1>Política da Loja</h1>
-
-    <h2>🛡️ Privacidade</h2>
-    <p>Seus dados estão seguros conosco. Utilizamos criptografia para proteger suas informações.</p>
-
-    <h2>🔄 Trocas e Devoluções</h2>
-    <p>Você pode solicitar troca ou devolução em até 7 dias após o recebimento. Entre em contato pelo WhatsApp.</p>
-
-    <h2>💳 Reembolso</h2>
-    <p>O reembolso será realizado após a análise do produto e será feito na mesma forma de pagamento.</p>
-
-    <h2>📦 Garantia</h2>
-    <p>Produtos com defeito serão trocados sem custo adicional.</p>
-  </main>
-
-  <footer>
-    &copy; 2025 Moro Slim - Todos os direitos reservados
-  </footer>
+        <h2>Depoimentos</h2>
+        <div class="depoimentos">
+            <div class="depoimento">
+                <p>"Em 2 semanas perdi 5kg com as cápsulas de Laranja Moro e os treinos!"</p>
+                <strong>– Juliana, SP</strong>
+            </div>
+            <div class="depoimento">
+                <p>"Os produtos chegaram super rápido e são maravilhosos. Recomendo!"</p>
+                <strong>– Carla, RJ</strong>
+            </div>
+            <div class="depoimento">
+                <p>"Comprei whey e tênis, excelente qualidade e ótimo preço."</p>
+                <strong>– Rafael, MG</strong>
+            </div>
+        </div>
+    </main>
+    <footer>
+        &copy; 2025 Moro Slim - Todos os direitos reservados | Instagram: @moroslim.oficial
+    </footer>
 </body>
 </html>
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contato - Moro Slim</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #fff; color: #333; }
-    header { background: #ff6600; padding: 20px; text-align: center; }
-    header img { max-height: 80px; }
-    nav { background: #333; padding: 10px; text-align: center; }
-    nav a { color: #fff; text-decoration: none; margin: 0 15px; font-weight: bold; }
-    nav a:hover { text-decoration: underline; }
-    main { padding: 40px 20px; max-width: 600px; margin: auto; }
-    h1 { color: #ff6600; text-align: center; }
-    form { display: flex; flex-direction: column; gap: 15px; }
-    input, textarea { padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 5px; }
-    button { background-color: #ff6600; color: white; border: none; padding: 10px; font-size: 16px; border-radius: 5px; cursor: pointer; }
-    button:hover { background-color: #e65500; }
-    footer { background: #222; color: #fff; text-align: center; padding: 20px; margin-top: 40px; font-size: 14px; }
-  </style>
-</head>
-<body>
-  <header>
-    <img src="https://raw.githubusercontent.com/stefanisantos10/Moro-slim/main/logo-moro-slim-casal.png" alt="Logo Moro Slim">
-  </header>
+   
 
-  <nav>
-    <a href="index.html">Início</a>
-    <a href="produtos.html">Produtos</a>
-    <a href="carrinho.html">Carrinho</a>
-    <a href="pagamento.html">Pagamento</a>
-    <a href="entrega.html">Entrega</a>
-    <a href="politica.html">Política</a>
-    <a href="contato.html">Contato</a>
-  </nav>
-
-  <main>
-    <h1>Fale com a Gente</h1>
-    <form onsubmit="alert('Mensagem enviada com sucesso!'); return false;">
-      <input type="text" placeholder="Seu nome" required />
-      <input type="email" placeholder="Seu e-mail" required />
-      <textarea rows="5" placeholder="Sua mensagem" required></textarea>
-      <button type="submit">Enviar Mensagem</button>
-    </form>
-  </main>
-
-  <footer>
-    &copy; 2025 Moro Slim - Todos os direitos reservados
-  </footer>
-</body>
-</html>
 
     
