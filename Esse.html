@@ -184,3 +184,58 @@
 </footer>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Carrinho - Moro Slim</title>
+<style>
+  body { margin: 0; font-family: Arial, sans-serif; background: #fff; color: #333; }
+  header { background: #ff6600; padding: 20px; text-align: center; }
+  header img { max-height: 100px; }
+  nav { background: #333; padding: 10px; text-align: center; }
+  nav a { color: #fff; text-decoration: none; margin: 0 15px; font-weight: bold; }
+  nav a:hover { text-decoration: underline; }
+  main { padding: 40px 20px; max-width: 600px; margin: auto; }
+  h1 { color: #ff6600; text-align: center; }
+  .produto-carrinho { border: 1px solid #ddd; border-radius: 10px; padding: 15px; margin-bottom: 15px; background: #fafafa; }
+  .produto-carrinho img { max-width: 120px; border-radius: 8px; float: left; margin-right: 15px; }
+  .produto-carrinho h3 { margin: 0 0 5px 0; }
+  .btn-finalizar { background: #ff6600; color: white; padding: 15px 25px; border: none; border-radius: 5px; font-weight: bold; cursor: pointer; width: 100%; }
+  .btn-finalizar:hover { background: #e65500; }
+  footer { background: #222; color: #fff; text-align: center; padding: 20px; margin-top: 40px; font-size: 14px; clear: both; }
+</style>
+</head>
+<body>
+<header>
+  <img src="https://raw.githubusercontent.com/stefanisantos10/Moro-slim/main/logo-moro-slim-casal.png" alt="Logo Moro Slim" />
+</header>
+<nav>
+  <a href="index.html">Início</a>
+  <a href="produtos.html">Produtos</a>
+  <a href="carrinho.html">Carrinho</a>
+  <a href="pagamento.html">Pagamento</a>
+  <a href="entrega.html">Entrega</a>
+  <a href="politica.html">Política</a>
+  <a href="contato.html">Contato</a>
+</nav>
+<main>
+  <h1>Seu Carrinho</h1>
+  <div id="carrinho-produtos">
+    <p>Seu carrinho está vazio.</p>
+  </div>
+  <button class="btn-finalizar" onclick="finalizarCompra()">Finalizar Compra</button>
+</main>
+<footer>
+  &copy; 2025 Moro Slim - Todos os direitos reservados | Instagram: @moroslim.oficial
+</footer>
+
+<script>
+  const produtos = {
+    "laranja-moro": { nome: "Laranja Moro - 60 cápsulas", preco: 49.90, imagem: "https://i.imgur.com/oPh1JKM.png" },
+    "cha-detox": { nome: "Chá Detox Verde + Hibisco", preco: 29.90, imagem: "https://i.imgur.com/FuNIDj0.png" },
+    "whey-protein": { nome: "Whey Protein 1kg - Baunilha", preco: 89.90, imagem: "https://i.imgur.com/8mEHF1K.jpg" },
+    "tenis-fitness": { nome: "Tênis Esportivo AirBoost", preco: 119.90, imagem: "https://i.imgur.com/7KZuvAE.jpg" },
+    "barra-cereal": { nome: "Barras de Cereal Zero (Cx c/ 12)", preco: 39.90, imagem: "https://i.imgur.com/mu3eE3j.jpg"
+    
