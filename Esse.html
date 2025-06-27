@@ -612,4 +612,115 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Carrinho - Moro Slim</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #fff; color: #333; }
+    header { background: #ff6600; padding: 20px; text-align: center; }
+    header img { max-height: 80px; }
+    nav { background: #333; padding: 10px; text-align: center; }
+    nav a { color: #fff; text-decoration: none; margin: 0 15px; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    main { padding: 40px 20px; max-width: 900px; margin: auto; }
+    h1 { text-align: center; color: #ff6600; }
+    table { width: 100%; border-collapse: collapse; margin-top: 30px; }
+    th, td { padding: 12px; border-bottom: 1px solid #ccc; text-align: left; }
+    .btn-finalizar {
+      background: #ff6600;
+      color: #fff;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 20px;
+      display: block;
+      margin-left: auto;
+    }
+    .btn-finalizar:hover {
+      background: #e65500;
+    }
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      text-align: center;
+      font-size: 24px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+      z-index: 1000;
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://raw.githubusercontent.com/stefanisantos10/Moro-slim/main/logo-moro-slim-casal.png" alt="Moro Slim Logo" />
+  </header>
+
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="produtos.html">Produtos</a>
+    <a href="carrinho.html">Carrinho</a>
+    <a href="pagamento.html">Pagamento</a>
+    <a href="entrega.html">Entrega</a>
+    <a href="politica.html">Política</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+
+  <main>
+    <h1>Seu Carrinho</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Produto</th>
+          <th>Quantidade</th>
+          <th>Preço</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Laranja Moro - 60 cápsulas</td>
+          <td>1</td>
+          <td>R$ 49,90</td>
+        </tr>
+        <tr>
+          <td>Whey Protein Baunilha</td>
+          <td>1</td>
+          <td>R$ 89,90</td>
+        </tr>
+        <tr>
+          <td><strong>Total</strong></td>
+          <td></td>
+          <td><strong>R$ 139,80</strong></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <a href="pagamento.html">
+      <button class="btn-finalizar">Finalizar Compra</button>
+    </a>
+  </main>
+
+  <a class="whatsapp-float" href="https://wa.me/5512991314853" target="_blank" title="Fale conosco no WhatsApp">🟢</a>
+
+  <footer>
+    &copy; 2025 Moro Slim - Todos os direitos reservados
+  </footer>
+</body>
+</html>
     
