@@ -238,4 +238,221 @@
     "whey-protein": { nome: "Whey Protein 1kg - Baunilha", preco: 89.90, imagem: "https://i.imgur.com/8mEHF1K.jpg" },
     "tenis-fitness": { nome: "Tênis Esportivo AirBoost", preco: 119.90, imagem: "https://i.imgur.com/7KZuvAE.jpg" },
     "barra-cereal": { nome: "Barras de Cereal Zero (Cx c/ 12)", preco: 39.90, imagem: "https://i.imgur.com/mu3eE3j.jpg"
+    <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Produtos - Moro Slim</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff;
+      color: #333;
+    }
+    header {
+      background: #ff6600;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      max-height: 80px;
+    }
+    nav {
+      background: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    h1 {
+      color: #ff6600;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .produto {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      background: #fafafa;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .produto img {
+      max-width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .produto h3 {
+      margin: 10px 0 5px;
+    }
+    .produto p {
+      font-weight: bold;
+      margin: 5px 0;
+    }
+    .btn {
+      background: #ff6600;
+      color: white;
+      padding: 10px 15px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .btn:hover {
+      background-color: #e65500;
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://raw.githubusercontent.com/stefanisantos10/Moro-slim/main/logo-moro-slim-casal.png" alt="Logo Moro Slim" />
+  </header>
+
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="produtos.html">Produtos</a>
+    <a href="carrinho.html">Carrinho</a>
+    <a href="pagamento.html">Pagamento</a>
+    <a href="entrega.html">Entrega</a>
+    <a href="politica.html">Política</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+
+  <main>
+    <h1>Todos os Produtos</h1>
+    <div class="produtos">
+
+      <!-- SUPLEMENTOS -->
+      <div class="produto">
+        <img src="https://i.imgur.com/oPh1JKM.png" alt="Laranja Moro Cápsulas">
+        <h3>Laranja Moro - 60 cápsulas</h3>
+        <p>R$ 49,90</p>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+
+      <div class="produto">
+        <img src="https://i.imgur.com/7KwJUhp.png" alt="Laranja Moro Pó">
+        <h3>Laranja Moro em pó 200g</h3>
+        <p>R$ 39,90</p>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+
+      <div class="produto">
+        <img src="https://i.imgur.com/8mEHF1K.jpg" alt="Whey Baunilha">
+        <h3>Whey Protein 1kg - Baunilha</h3>
+        <p>R$ 89,90</p>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+
+      <div class="produto">
+        <img src="https://i.imgur.com/1shXjZJ.jpg" alt="Whey Morango">
+        <h3>Whey Protein 1kg - Morango</h3>
+        <p>R$ 89,90</p>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+
+      <div class="produto">
+        <img src="https://i.imgur.com/QGm8JJK.jpg" alt="Termogênico">
+        <h3>Termogênico Laranja Moro</h3>
+        <p>R$ 59,90</p>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+
+      <!-- SNACKS -->
+      <div class="produto">
+        <img src="https://i.imgur.com/mu3eE3j.jpg" alt="Barras de Cereal">
+        <h3>Barras de Cereal Zero (12 unid)</h3>
+        <p>R$ 39,90</p>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+
+      <!-- ROUPAS FITNESS FEMININAS -->
+      <div class="produto">
+        <img src="https://i.imgur.com/VG6m2tr.jpg" alt="Conjunto Feminino Roxo">
+        <h3>Conjunto Fitness Feminino Roxo</h3>
+        <p>R$ 99,90</p>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+
+      <div class="produto">
+        <img src="https://i.imgur.com/XLrOS1V.jpg" alt="Camiseta Feminina Roxa">
+        <h3>Camiseta Dry Fit Feminina Roxa</h3>
+        <p>R$ 49,90</p>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+
+      <div class="produto">
+        <img src="https://i.imgur.com/UkAnxJP.jpg" alt="Short Feminino Preto">
+        <h3>Short Fitness Feminino Preto</h3>
+        <p>R$ 39,90</p>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+
+      <!-- ROUPAS FITNESS MASCULINAS -->
+      <div class="produto">
+        <img src="https://i.imgur.com/G3bApSO.jpg" alt="Camiseta Masculina Roxa">
+        <h3>Camiseta Dry Fit Masculina Roxa</h3>
+        <p>R$ 49,90</p>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+
+      <div class="produto">
+        <img src="https://i.imgur.com/nGUPcvZ.jpg" alt="Short Masculino Preto">
+        <h3>Short Fitness Masculino Preto</h3>
+        <p>R$ 44,90</p>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+
+      <!-- TÊNIS -->
+      <div class="produto">
+        <img src="https://i.imgur.com/aNZg4UC.jpg" alt="Tênis Feminino Roxo">
+        <h3>Tênis AirBoost Feminino Roxo</h3>
+        <p>R$ 119,90</p>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+
+      <div class="produto">
+        <img src="https://i.imgur.com/VVyY8Qc.jpg" alt="Tênis Masculino Preto">
+        <h3>Tênis AirBoost Masculino Preto</h3>
+        <p>R$ 129,90</p>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Moro Slim - Todos os direitos reservados
+  </footer>
+</body>
+</html>
     
